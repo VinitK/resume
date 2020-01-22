@@ -5,7 +5,7 @@
     <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!--Import materialize.css-->
-    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -13,6 +13,7 @@
 
 <body class="cyan darken-4">
     <div class="container">
+
         <div class="card-panel z-depth-2">
             <div class="row" style="margin-bottom: 0;">
                 <div class="col m2">
@@ -21,152 +22,59 @@
                     <!-- notice the "circle" class -->
                 </div>
                 <div class="col m5">
-                    <h4 class="cyan-text text-darken-2">
-                        Harshita Khandelwal
+                    <h4 class="cyan-text text-darken-2" id="name">
+                        Loading...
                     </h4>
-                    <h6>Salesforce Consultant at Deloitte USI</h6>
-                    <a href="https://drive.google.com/file/d/1icWCB8pHCSW-ZIzMMON7cHj-t9mQo9BZ/view?usp=sharing" target="_blank" class="waves-effect waves-light btn pink">PDF RESUME</a>
+                    <h6 id="tagline">Loading...</h6>
+                    <a href="#" id="pdfresume" target="_blank" class="waves-effect waves-light btn pink">PDF RESUME</a>
                 </div>
                 <div class="col m5">
                     <div class="collection" style="border: none;">
                         <div class="collection-item hoverable">
-                            <a class="cyan-text text-darken-4 " href="mailto:harshita1925k@gmail.com">
+                            <a class="cyan-text text-darken-4 " href="#" id="emailLink">
                                 <i class="fas fa-envelope-open cyan-text text-darken-2"></i>
-                                &nbsp;&nbsp;harshita1925k@gmail.com
+                                <span id="email">&nbsp;&nbsp;Loading...</span>
                             </a>
                         </div>
                         <div class="collection-item hoverable">
-                            <a class="cyan-text text-darken-4" href="tel:+917597422856">
-
+                            <a class="cyan-text text-darken-4" href="#" id="phoneLink">
                                 <i class="fas fa-phone-square-alt cyan-text text-darken-2"></i>
-                                &nbsp;&nbsp;+91 75974 22856
+                                <span id="phone">&nbsp;&nbsp;Loading...</span>
                             </a>
                         </div>
                         <div class="collection-item hoverable">
-                            <a class="cyan-text text-darken-4" href="https://www.linkedin.com/in/khandelwal-harshita/" target="_blank">
+                            <a class="cyan-text text-darken-4" href="#" id="linkedinLink" target="_blank">
                                 <i class="fab fa-linkedin cyan-text text-darken-2"></i>
-                                &nbsp;&nbsp;linkedin.com/in/khandelwal-harshita
+                                <span id="linkedin">&nbsp;&nbsp;Loading...</span>
                             </a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+
         <div class="card-panel z-depth-2">
             <div class="tabs" id="summary">
                 <h5><a class="cyan-text text-darken-2 active" href="#summary">SUMMARY</a></h5>
             </div>
-            <li>5.7 years of work experience with industry leaders
-                such as Appirio and Deloitte USI.</li>
-            <li>9X Certified Salesforce Application Architect having achieved 48 Trailhead Badges and 40,000
-                Trailhead
-                Points.</li>
+            <div id="bio">
+            </div>
         </div>
+
         <div class="card-panel z-depth-2">
+
             <div class="tabs" id="experience">
                 <h5><a class="cyan-text text-darken-2 active" href="#experience">WORK EXPERIENCE</a></h5>
             </div>
-            <div class="card horizontal hoverable">
-                <div class="row" style="margin: 0;">
-                    <div class="card-image col m4" style="padding: 0;">
-                        <img
-                            src="https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/b7/51/48/b75148d3-075a-6786-5097-2d83fba4e6d8/source/256x256bb.jpg">
-                    </div>
-                    <div class="card-stacked col m8">
-                        <div class="card-content">
-                            <blockquote>
-                                <h5>Salesforce Consultant at Deloitte USI</h5>
-                            </blockquote>
-                            <li>Worked on projects from F5 Networks, Inc.</li>
-                            <li>Used skills ranging from developing applications, setting integrations, developing
-                                robust
-                                backend, code restructuring, database
-                                migrations, and frontend.</li>
-                        </div>
-                        <div class="card-action">
-                            <a class="cyan-text text-darken-4">November 2018 to Present</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="card horizontal hoverable">
-
-                <div class="row" style="margin: 0;">
-                    <div class="card-stacked col m8">
-                        <div class="card-content">
-                            <blockquote>
-                                <h5>Senior Salesforce Consultant at Appirio - A Wipro Company</h5>
-                            </blockquote>
-                            <p>Worked on 8 projects of top global companies:</p>
-                            <ol>
-                                <li>Dropbox</li>
-                                <li>Intel Security</li>
-                                <li>American Civil Liberties Union
-                                </li>
-                                <li>QBE North America
-                                </li>
-                                <li>Mount Sinai Hospital
-                                </li>
-                                <li>Athena Health Inc.
-                                </li>
-                                <li>Andersen Corporation
-                                </li>
-                                <li>Robert Half International
-                                </li>
-                            </ol>
-                        </div>
-                        <div class="card-action">
-                            <a class="cyan-text text-darken-4">May 2014 to October 2018</a>
-                        </div>
-                    </div>
-                    <div class="card-image col m4" style="padding: 0;">
-                        <img src="https://miro.medium.com/fit/c/256/256/0*sZ0xdBSQpponXNHE.jpeg">
-                    </div>
-                </div>
-
+            <div id="work">
             </div>
         </div>
+
         <div class="card-panel z-depth-2">
             <div class="tabs" id="certifications">
                 <h5><a class="cyan-text text-darken-2 active" href="#certifications">CERTIFICATIONS</a></h5>
             </div>
-            <div class="collection" style="border: none;">
-                <a class="collection-item row">
-                    <p class="col m10 black-text">Salesforce Certified Application Architect</p>
-                    <p class="col m2 black-text">May 2019</p>
-                </a>
-                <a class="collection-item row">
-                    <p class="col m10 black-text">Salesforce Certified Data Architecture And Management Designer</p>
-                    <p class="col m2 black-text">May 2019</p>
-                </a>
-                <a class="collection-item row">
-                    <p class="col m10 black-text">Salesforce Certified Sharing And Visibility Designer</p>
-                    <p class="col m2 black-text">March 2019</p>
-                </a>
-                <a class="collection-item row">
-                    <p class="col m10 black-text">Salesforce Certified Community Cloud Consultant</p>
-                    <p class="col m2 black-text">March 2017</p>
-                </a>
-                <a class="collection-item row">
-                    <p class="col m10 black-text">Salesforce Certified Service Cloud Consultant</p>
-                    <p class="col m2 black-text">November 2016</p>
-                </a>
-                <a class="collection-item row">
-                    <p class="col m10 black-text">Salesforce Certified Sales Cloud Consultant</p>
-                    <p class="col m2 black-text">July 2016</p>
-                </a>
-                <a class="collection-item row">
-                    <p class="col m10 black-text">Salesforce Certified Platform Developer I (PD1)</p>
-                    <p class="col m2 black-text">June 2016</p>
-                </a>
-                <a class="collection-item row">
-                    <p class="col m10 black-text">Salesforce Certified Administrator (ADM201)</p>
-                    <p class="col m2 black-text">September 2015</p>
-                </a>
-                <a class="collection-item row">
-                    <p class="col m10 black-text">Salesforce Certified Force.com Developer (Dev401)</p>
-                    <p class="col m2 black-text">December 2014</p>
-                </a>
+            <div class="collection" style="border: none;" id="certificates">
             </div>
         </div>
 
@@ -176,162 +84,18 @@
                     <h5><a class="cyan-text text-darken-2 active" href="#qualification">QUALIFICATION</a></h5>
                 </div>
             </div>
-            <ul class="collection" style="border: none;">
-                <li class="collection-item avatar hoverable">
-                    <img src="https://media.glassdoor.com/sqll/513654/the-lnmiit-squarelogo-1460988064770.png" alt=""
-                        class="circle">
-                    <span class="title">
-                        <h6>Bachelor of Technology (B. Tech.)</h6>
-                    </span>
-                    <p>Electronics and Communications<br>
-                        LNMIIT, Jaipur
-                    </p>
-                    <div class="secondary-content hide-on-small-only"><i class="cyan-text text-darken-2 fas fa-graduation-cap fa-2x"></i>
-                        <h6 class="black-text">GPA: 8.64/10</h6>
-                </li>
-                <li class="collection-item avatar hoverable">
-                    <img src="https://media.glassdoor.com/sqll/588379/d-a-v-sr-sec-public-school-squarelogo-1495783261628.png"
-                        alt="" class="circle">
-                    <span class="title">
-                        <h6>XII (CBSE)</h6>
-                    </span>
-                    <p>Science<br>
-                        D.A.V Centenary Public School, Jaipur
-                    </p>
-                    <a class="secondary-content hide-on-small-only"><i class="cyan-text text-darken-2 fas fa-university fa-2x"></i>
-                        <h6 class="black-text">Score: 85.8%</h6>
-                    </a>
-                </li>
-                <li class="collection-item avatar hoverable">
-                    <img src="https://media.glassdoor.com/sqll/588379/d-a-v-sr-sec-public-school-squarelogo-1495783261628.png"
-                        alt="" class="circle">
-                    <span class="title">
-                        <h6>X (CBSE)</h6>
-                    </span>
-                    <p>
-                        D.A.V Centenary Public School, Jaipur
-                    </p>
-                    <a class="secondary-content hide-on-small-only"><i class="cyan-text text-darken-2 fas fa-bus fa-2x"></i>
-                        <h6 class="black-text">Score: 84.6%</h6>
-                    </a>
-                </li>
+            <ul class="collection" style="border: none;" id="schools">
             </ul>
         </div>
+
         <div class="card-panel z-depth-2">
             <div class="tabs" id="skills">
                 <h5><a class="cyan-text text-darken-2 active" href="#skills">KEY SKILLS</a></h5>
             </div>
-            <p>
-                <div class="chip hoverable">
-                    Lightning Web Components
-                </div>
-                <div class="chip hoverable">
-                    Lightning Aura Framework
-                </div>
-                <div class="chip hoverable">
-                    Lightning Community
-                </div>
-                <div class="chip hoverable">
-                    Lightning Flows
-                </div>
-                <div class="chip hoverable">
-                    Lightning Design System
-                </div>
-                <div class="chip hoverable">
-                    Salesforce DX ( CLI )
-                </div>
-                <div class="chip hoverable">
-                    Scratch Orgs
-                </div>
-                <div class="chip hoverable">
-                    Salesforce to Salesforce Connector
-                </div>
-                <div class="chip hoverable">
-                    Visual Force
-                </div>
-                <div class="chip hoverable">
-                    Apex
-                </div>
-                <div class="chip hoverable">
-                    SOQL
-                </div>
-                <div class="chip hoverable">
-                    Triggers
-                </div>
-                <div class="chip hoverable">
-                    CSS
-                </div>
-                <div class="chip hoverable">
-                    Web Services ( REST/ SOAP )
-                </div>
-                <div class="chip hoverable">
-                    Salesforce Security Model (Roles/Profiles/Sharing)
-                </div>
-                <div class="chip hoverable">
-                    CPQ Configuration Basics
-                </div>
-                <div class="chip hoverable">
-                    Apex Dataloader
-                </div>
-                <div class="chip hoverable">
-                    Asynchronous Apex (Future/Batch/Scheduler/Queueable Interfaces)
-                </div>
-                <div class="chip hoverable">
-                    Connect API
-                </div>
-                <div class="chip hoverable">
-                    Tooling API
-                </div>
-                <div class="chip hoverable">
-                    Managed Packages
-                </div>
-                <div class="chip hoverable">
-                    HTML
-                </div>
-                <div class="chip hoverable">
-                    Non-Profit Packages (rCorner)
-                </div>
-                <div class="chip hoverable">
-                    Live Agent
-                </div>
-                <div class="chip hoverable">
-                    Metadata API
-                </div>
-                <div class="chip hoverable">
-                    Territory Management
-                </div>
-                <div class="chip hoverable">
-                    Drawloop
-                </div>
-                <div class="chip hoverable">
-                    Conga Composer
-                </div>
-                <div class="chip hoverable">
-                    Git
-                </div>
-                <div class="chip hoverable">
-                    Bitbucket
-                </div>
-                <div class="chip hoverable">
-                    Sourcetree
-                </div>
-                <div class="chip hoverable">
-                    CI Tools (Bitbucket Pipelines/ Circle CI)
-                </div>
-                <div class="chip hoverable">
-                    Ant
-                </div>
-                <div class="chip hoverable">
-                    Changesets
-                </div>
-                <div class="chip hoverable">
-                    IDE Tools (Eclipse/ Visual Studio Code)
-                </div>
-                <div class="chip hoverable">
-                    jQuery
-                </div>
-            </p>
+            <div id="skill">
+            </div>
         </div>
+
         <div class="card-panel z-depth-2">
             <div class="tabs" id="projects">
                 <h5><a class="cyan-text text-darken-2 active" href="#projects">PROJECTS</a></h5>
@@ -492,16 +256,183 @@
                                 resolved the mobile app issues</li>
                         </div>
                     </div>
-                    <img class="hide-on-small-only" src="https://www.bestilltree.com/wp-content/uploads/2018/09/signature-transparent.png"
+                    <img class="hide-on-small-only"
+                        src="https://www.bestilltree.com/wp-content/uploads/2018/09/signature-transparent.png"
                         style="width: 200px; margin: 30px 100px" ; />
                 </div>
             </div>
         </div>
+
     </div>
-</div>
+    </div>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script src="https://kit.fontawesome.com/414f35e953.js" crossorigin="anonymous"></script>
+    <script>
+        let resume = {}
+        fetch('https://6w09mt0zgf.execute-api.ap-south-1.amazonaws.com/live/harshita-resume')
+            .then(response => response.json())
+            .then(data => {
+                resume = { ...data.resume };
+                document.getElementById("name").innerHTML = resume.name;
+                document.getElementById("tagline").innerHTML = resume.tagline;
+                document.getElementById("pdfresume").href = resume.pdfresume;
+                document.getElementById("email").innerHTML = resume.email;
+                document.getElementById("emailLink").href = `mailto:${resume.email}`;
+                document.getElementById("phone").innerHTML = `${resume.phone.country_code} ${resume.phone.number}`;
+                document.getElementById("phoneLink").href = `tel:${resume.phone.country_code} ${resume.phone.number}`;
+                document.getElementById("linkedin").innerHTML = resume.linkedin;
+                document.getElementById("linkedinLink").href = `https://www.${resume.linkedin}`;
+
+                const bio = document.getElementById("bio");
+                resume.bio.map(ele => {
+                    const newLi = document.createElement("li");
+                    newLi.innerHTML = ele;
+                    bio.appendChild(newLi);
+                });
+
+                const work = document.getElementById("work");
+                resume.work.slice(0).reverse().map(ele => {
+
+                    const newH5 = document.createElement("h5");
+                    newH5.innerHTML = `${ele.designation} at ${ele.company}`;
+
+                    const newBlockquote = document.createElement('blockquote');
+                    newBlockquote.appendChild(newH5);
+
+                    const newCardContent = document.createElement('div');
+                    newCardContent.setAttribute('class', 'card-content');
+                    newCardContent.appendChild(newBlockquote);
+
+
+                    ele.description.map(desc => {
+                        const newDesc = document.createElement('div');
+                        newDesc.innerHTML = desc;
+                        newCardContent.appendChild(newDesc);
+                    });
+
+
+                    const newDurationA = document.createElement('a');
+                    newDurationA.innerHTML = `${ele.fromDate ? new Date(ele.fromDate).toLocaleString('default', { month: 'long', year: 'numeric' }) : "Present"} to ${ele.toDate ? new Date(ele.toDate).toLocaleString('default', { month: 'long', year: 'numeric' }) : "Present"}`
+                    newDurationA.setAttribute('class', 'cyan-text text-darken-4');
+
+                    const newDuration = document.createElement('div');
+                    newDuration.setAttribute('class', 'cyan-text text-darken-4');
+                    newDuration.appendChild(newDurationA);
+
+
+                    const newCardAction = document.createElement('div');
+                    newCardAction.setAttribute('class', 'card-action');
+                    newCardAction.appendChild(newDuration);
+
+
+                    const newCardStack = document.createElement('div');
+                    newCardStack.setAttribute('class', 'card-stacked col m8');
+                    newCardStack.appendChild(newCardContent);
+                    newCardStack.appendChild(newCardAction);
+
+
+                    const newImageDiv = document.createElement("div");
+                    newImageDiv.setAttribute('class', 'card-image col m4');
+                    newImageDiv.setAttribute('style', 'padding: 0;');
+
+                    const newImage = document.createElement('img');
+                    newImage.setAttribute('src', ele.logoUrl);
+                    newImage.setAttribute('style', 'float: right');
+                    newImageDiv.appendChild(newImage);
+
+                    const newRowDiv = document.createElement('div');
+                    newRowDiv.setAttribute('class', 'row');
+                    newRowDiv.setAttribute('style', 'margin: 0');
+                    newRowDiv.appendChild(newCardStack);
+                    newRowDiv.appendChild(newImageDiv);
+
+                    const newCardDiv = document.createElement('div');
+                    newCardDiv.setAttribute('class', 'card horizontal hoverable');
+                    newCardDiv.appendChild(newRowDiv);
+
+                    work.appendChild(newCardDiv);
+                });
+
+                const certificates = document.getElementById('certificates');
+                resume.certifications.map(certificate => {
+                    const newCert = document.createElement('a');
+                    newCert.setAttribute('class', 'collection-item row');
+                    certificates.appendChild(newCert);
+
+                    const firstP = document.createElement('p');
+                    firstP.setAttribute('class', 'col m10 black-text');
+                    firstP.innerHTML = certificate.title;
+                    newCert.appendChild(firstP);
+
+                    const secondP = document.createElement('p');
+                    secondP.setAttribute('class', 'col m2 black-text');
+                    secondP.setAttribute('style', 'text-align: right');
+                    secondP.innerHTML = new Date(certificate.date_of_completion).toLocaleString('default', { month: 'long', year: 'numeric' })
+                    newCert.appendChild(secondP);
+                });
+
+                const schools = document.getElementById('schools');
+                resume.qualification.map(school => {
+
+                    const newLi = document.createElement('li');
+                    newLi.setAttribute('class', 'collection-item avatar hoverable')
+                    schools.appendChild(newLi);
+
+                    const logo = document.createElement('img');
+                    logo.setAttribute('src', school.instituteLogo);
+                    logo.setAttribute('class', 'circle');
+                    newLi.appendChild(logo);
+
+                    const titleSpan = document.createElement('span');
+                    titleSpan.setAttribute('class', 'title');
+                    newLi.appendChild(titleSpan);
+
+                    const titleH6 = document.createElement('h6');
+                    titleH6.innerHTML = school.course;
+                    titleSpan.appendChild(titleH6);
+
+                    const titleP = document.createElement('p');
+                    titleP.innerHTML = `${school.specialization ? school.specialization : ""}<br>${school.location}`
+                    newLi.appendChild(titleP);
+
+                    const scoreDiv = document.createElement('div');
+                    scoreDiv.setAttribute('class', 'secondary-content hide-on-small-only');
+                    newLi.appendChild(scoreDiv);
+
+                    const scoreH6 = document.createElement('h6');
+                    scoreH6.innerHTML = `${school.grade.score}${school.grade.type === "Percentage" ? "%" : " GPA"}`;
+                    scoreDiv.appendChild(scoreH6);
+                });
+                // <ul class="collection" style="border: none;" id="schools">
+                //     <li class="collection-item avatar hoverable">
+                //         <img src="https://media.glassdoor.com/sqll/513654/the-lnmiit-squarelogo-1460988064770.png" alt=""
+                //             class="circle">
+                //         <span class="title">
+                //             <h6>Bachelor of Technology (B. Tech.)</h6>
+                //         </span>
+                //         <p>Electronics and Communications<br>
+                //             LNMIIT, Jaipur
+                //         </p>
+                //         <div class="secondary-content hide-on-small-only"><i
+                //                 class="cyan-text text-darken-2 fas fa-graduation-cap fa-2x"></i>
+                //             <h6 class="black-text">GPA: 8.64/10</h6>
+                //         </div>
+                //     </li>
+                // </ul>
+
+                const skillDiv = document.getElementById('skill');
+                resume.skills.map(skill => {
+                    const newSkill = document.createElement('div');
+                    newSkill.setAttribute('class', 'chip hoverable');
+                    newSkill.innerHTML = skill;
+                    skillDiv.appendChild(newSkill);
+                });
+
+                console.log(resume);
+            })
+            .catch(err => console.log(err));
+    </script>
 </body>
 
 </html>
